@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+.discount-banner{
+   background-color:red !important;
+   position:relative;
+   top: -20px;
+   left: -35px;
+  }
+  
+ div.bag-image {
+  display: inline-block;
+
+  /* just so that we  can see in the example */
+  margin-top: 3em;   
+}
+
+div.bag-image:before {
+  position: absolute;
+  background-color: #ff0000;
+  content: 'SALE';
+  text-align: center;
+  color: #ffffff;
+  margin-top: -2.5em;
+  margin-left: 175px;
+
+  /* optionally make it a circle */
+  border-radius: 9999px;
+  height: 3em;
+  padding: 1em;
+  line-height: 3em;
+}
+
+/* just for clarity */
+img.image {
+  border: 1px solid #ccc;
+}
+
+.range-form {
+  width: 100%;
+  margin: auto;
+  padding: 50px;
+}
+
+
+
+/* Mouse-over effects */
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
